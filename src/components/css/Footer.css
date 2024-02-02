@@ -1,0 +1,56 @@
+.footer  {
+  height:456px;
+  background-color:#140F0a;
+  width:'100%;
+}
+
+.copyrightText {
+  color:#fff;
+  font-family:Noto Serif TC;
+  line-height:24px;
+  font-weight:500;
+  letter-spacing:2px;
+}
+.copyrightContent{
+  font-size:16px;
+}
+.insideFooter {
+  height:256px;
+  padding:100px 17vw 100px 17vw
+}
+.changeStyle{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.twoAboutInfoStyle{
+  margin-left: 80px;
+}
+@media(max-width:576px) {
+  .aboutMobileInfoMt{
+    margin-top: 40px;
+  }
+  .changeStyle{
+    display:block;
+  }
+  .copyrightContent{
+    font-size:14px;
+  }
+  .footer{
+    height:750px
+  }
+  .insideFooter{
+    padding:80px 16px 80px 16px;
+    height:590px;
+  }
+  .footerCopy{
+    padding-top:80px;
+  }
+  .aboutInfoStyle{
+    padding-top: 8px;
+    margin-top: 0px !important;
+  }
+  .twoAboutInfoStyle{
+    margin-left: 0px;
+  }
+}

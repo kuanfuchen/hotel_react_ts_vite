@@ -1,9 +1,10 @@
 // import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import Navbar from './components/Navbar.tsx';
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
+import Footer from './components/Footer.tsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
           </Routes>
         </div>
+        <Footer />
       </div>
     </>
   )
